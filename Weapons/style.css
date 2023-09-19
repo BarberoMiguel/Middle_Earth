@@ -1,0 +1,43 @@
+header section {
+    background: url("/The_Ring.jpg") no-repeat center center; 
+    height: 100px;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+}
+
+nav ul li{
+    height: 80px;
+    list-style: none;
+    display: inline-block;
+    margin: -20px 50px;
+    padding: 10px 20px;
+}
+
+h2 a[href*="weapons"] {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+li a {
+    color: #d5a513;
+}
+
+li a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+
+    
+    
