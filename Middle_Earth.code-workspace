@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Regions"
+		},
+		{
+			"path": "Main_characters"
+		},
+		{
+			"path": "Battles"
+		},
+		{
+			"path": "Weapons"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Middle_Earth"
+	}
+}

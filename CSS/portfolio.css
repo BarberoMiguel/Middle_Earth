@@ -1,0 +1,347 @@
+:root {
+    --gold: #d5a513;
+    --back: #f0bb83c5;
+    --ink: #1e1301;
+}
+
+header section {
+    background: url("../Assets/Images/The_Ring.jpg") no-repeat center center; 
+    height: 100px;
+    background-size: cover;
+    text-align: left;
+    z-index: 10;
+}
+
+body {
+    padding: 0px;
+    margin: 0px 0px;
+    background: url("../Assets/Images/about.jpg") repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000;
+    z-index: 10;
+}
+
+header section img {
+    width: 30%;
+    margin: 10px 0px;
+}
+
+header nav{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 65px;
+}
+
+.bar {
+    justify-content: flex-start;
+    margin: 0 5%;
+    border-top: 2px solid white;
+}
+
+h2 a[href*="about"] {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 2%;
+}
+
+a[href*="portfolio"] {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 2%;
+}
+
+header nav a {
+    position: relative;
+    text-decoration: none;
+    color: var(--gold);
+    padding: 10px 2%;
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+header nav a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 2%;
+}
+
+
+
+main {
+    position: relative;
+    top: 250px;
+    margin: 0px 20% 0px 5%;
+    padding: 10px 10px;
+    background-color: var(--back);
+    display: flex;
+    flex-flow: column;
+}
+
+main img {
+    float: right;
+    width: 30%;
+    margin: 5px 10px;
+}
+
+#regions {
+    width: 15%;
+}
+
+#weapons {
+    width: 20%;
+}
+
+p {
+    font-size: large;
+    text-align: justify;
+    color: var(--ink);
+}
+
+main h2, h3 {
+    margin: 10px;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: var(--ink);
+}
+
+main section {
+    margin: 30px 0;
+}
+
+article {
+    margin: 20px 10px;
+}
+
+div.top {
+    position:fixed;
+    bottom:10px;
+    right: 10px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    border-radius: 5px;
+    opacity:80%;
+    -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0); 
+    box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 5px 5px 3px 5px rgba(252,213,206,0);
+}
+
+div.top > a {
+    text-decoration: none;
+    color: var(--gold);
+}
+
+aside {
+    position: fixed;
+    top: 250px;
+    right: 5px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    width: 16%;
+    padding: 5px;
+}
+
+aside nav {
+    margin: 0;
+    padding: 0;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside a {
+    margin: 0;
+    color: var(--gold);
+    padding: 0;
+}
+
+aside audio {
+    margin: 10px 5px;
+    width: 90%;
+}
+
+@media screen and (max-width: 463px) { 
+    header nav {
+        flex-wrap: wrap;
+        height: 80px;
+        gap: 0px 20px;
+        padding: 10px 2%;
+    }
+    header nav a {
+        font-size: 10px;
+    }
+    header nav h2 {
+        margin: 0;
+    }
+    main img {
+        width: 40%;
+    }
+    #regions {
+        width: 40%;
+    }
+    header section {
+        height: 30px;
+    }
+    header nav a {
+        margin: -20px 0;
+    }
+    header nav {
+        height: 50px;
+        margin: -20px 0 0 0;
+    }
+    .bar a {
+        margin: 0px 0;
+    }
+    .bar {
+        height: 25px;
+    }
+    main {
+        top: 150px;
+    }
+    aside {
+        top: 150px;
+    }
+    main p, main span, main h2, main h3 {
+        font-size: 15px;
+    }
+    aside a {
+        font-size: 10px;
+    }
+} 
+
+@media only screen and (min-device-width: 463px) and (max-device-width: 650px) { 
+    header nav {
+        height: 60px;
+        gap: 0px 20px;
+        padding: 10px 2%;
+    }
+    header nav a {
+        font-size: 10px;
+    }
+    main img {
+        width: 40%;
+    }
+    #regions {
+        width: 30%;
+    }
+    header section {
+        height: 40px;
+    }
+    header section {
+        height: 40px;
+    }
+    header nav a {
+        margin: -40px 0;
+    }
+    header nav {
+        height: 45px;
+        margin: -30px 0 0 0;
+    }
+    .bar a {
+        margin: 0px 0;
+    }
+    .bar {
+        height: 25px;
+    }
+    main {
+        top: 150px;
+    }
+    aside {
+        top: 150px;
+    }
+    main p, main span, main h2, main h3, aside a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 650px) and (max-device-width: 750px) { 
+    header nav {
+        height: 60px;
+        gap: 0px 20px;
+        padding: 10px 2%;
+    }
+    header nav a {
+        font-size: 12px;
+    }
+    main img {
+        width: 40%;
+    }
+    #regions {
+        width: 30%;
+    }
+    header section {
+        height: 50px;
+    }
+    header nav a {
+        margin: -40px 0;
+    }
+    header nav {
+        height: 45px;
+        margin: -20px 0 0 0;
+    }
+    .bar a {
+        margin: 0px 0;
+    }
+    .bar {
+        height: 30px;
+    }
+    main {
+        top: 180px;
+    }
+    aside {
+        top: 180px;
+    }
+}
+
+@media screen and (min-device-width: 750px) and (max-device-width: 1000px) {
+    header nav {
+        height: 70px;
+        gap: 0px 20px;
+        padding: 10px 2%;
+    }
+    header nav a {
+        font-size: 18px;
+    }   
+    main img {
+        width: 40%;
+    }
+    #regions {
+        width: 30%;
+    }
+    header section {
+        height: 50px;
+    }
+    header nav a {
+        margin: -40px 0;
+    }
+    header nav {
+        height: 45px;
+        margin: -20px 0 0 0;
+    }
+    .bar a {
+        margin: 0px 0;
+    }
+    .bar {
+        height: 30px;
+    }
+    main {
+        top: 180px;
+    }
+    aside {
+        top: 180px;
+    }
+}  
