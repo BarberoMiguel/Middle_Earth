@@ -99,13 +99,13 @@ main img {
     margin: 5px 10px;
 }
 
-p {
+p, blockquote, #bibliography li {
     font-size: 15px;
     text-align: justify;
     color: var(--ink);
 }
 
-main h2, h3 {
+main h2, h3, {
     margin: 10px;
     font-size: 1.5rem;
     font-family: fantasy;
@@ -228,5 +228,8 @@ aside audio {
     }
     main {
         top: 240px;
+    }
+    #hobbit {
+        height: 500px;
     }
 }
