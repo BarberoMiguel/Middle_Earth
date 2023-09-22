@@ -73,7 +73,6 @@ header nav a {
     white-space: nowrap;
     margin: 0;
     font-size: 0.9rem;
-
 }
 
 header nav a:hover {
@@ -112,8 +111,6 @@ main h2, main h3 {
     color: var(--ink);
 }
     
-
-
 h3 {
     font-size: 1.2rem;
 }
