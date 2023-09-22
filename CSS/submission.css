@@ -87,13 +87,14 @@ main {
     position: relative;
     top: 200px;
     margin: 0px 20% 0px 5%;
-    padding: 40px 10px;
+    padding: 10px 10px;
     background-color: var(--back);
     display: flex;
     flex-flow: column;
 }
 
 p {
+    text-align: center;
     font-size: 15px;
     text-align: justify;
     color: var(--ink);
@@ -107,21 +108,9 @@ main h2 {
     color: var(--ink);
 }
 
-fieldset {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-}
 
-#submit {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#submit input {
-    margin: 0 30px;
+main section {
+    margin: 30px 0;
 }
 
 div.top {
@@ -230,4 +219,3 @@ aside audio {
         top: 240px;
     }
 } 
-    

@@ -105,12 +105,14 @@ p, blockquote, #bibliography li {
     color: var(--ink);
 }
 
-main h2, h3, {
+main h2, main h3 {
     margin: 10px;
     font-size: 1.5rem;
     font-family: fantasy;
     color: var(--ink);
 }
+    
+
 
 h3 {
     font-size: 1.2rem;
