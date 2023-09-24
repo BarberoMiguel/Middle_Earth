@@ -87,6 +87,7 @@ main {
 }
 
 article {
+    margin: 20px 10px;
     display: flex;
     flex-direction: column;
 }
@@ -94,7 +95,7 @@ article {
 main img {
     float: right;
     width: 45%;
-    margin: 5px 0px;
+    margin: 5px 5px;
 }
 
 #weapons {
@@ -120,10 +121,6 @@ main h3 {
 
 main section {
     margin: 10px 0;
-}
-
-article {
-    margin: 20px 10px;
 }
 
 div.top {

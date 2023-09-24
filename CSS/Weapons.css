@@ -52,7 +52,7 @@ header h2 {
     margin: 0;
 }
 
-h2 a[href*="index"] {
+h2 a[href*="Weapons"] {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -86,9 +86,10 @@ main {
     flex-flow: column;
 }
 
-article {
+main > article {
     display: flex;
     flex-direction: column;
+    margin: 20px 10px;
 }
 
 main img {
@@ -97,14 +98,14 @@ main img {
     margin: 5px 0px;
 }
 
-#weapons {
-    width: 40%;
-}
-
-p {
+p, blockquote {
     font-size: 15px;
     text-align: justify;
     color: var(--ink);
+}
+
+blockquote {
+    text-align: center;
 }
 
 main h2, main h3, main h4{
@@ -124,6 +125,16 @@ main h4 {
 
 main section {
     margin: 10px 0;
+}
+
+main img {
+    float: left;
+    width: 30%;
+    margin: 5px 5px;
+}
+
+article article {
+    float: right;
 }
 
 article {
@@ -225,7 +236,7 @@ aside audio {
     html {
         font-size: 25px;
     }
-    p {
+    p, blockquote {
         font-size: 20px;
     }
     header nav {
@@ -237,5 +248,8 @@ aside audio {
     }
     main {
         top: 190px;
+    }
+    .small {
+        width: 20%;
     }
 }
