@@ -20,7 +20,7 @@ header section {
 body {
     padding: 0px;
     margin: 0px 0px;
-    background: url("../Assets/Images/Map.jpg") repeat center center;
+    background: url("../Assets/Images/The\ fellowship.jpg") repeat center center;
     background-size: cover;
     background-attachment: fixed;
     z-index: 1;
@@ -88,8 +88,7 @@ main {
 
 article {
     margin: 20px 10px;
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 main img {
