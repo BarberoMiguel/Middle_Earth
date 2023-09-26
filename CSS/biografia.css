@@ -111,7 +111,7 @@ main h2, main h3 {
     color: var(--ink);
 }
     
-h3 {
+main h3 {
     font-size: 1.2rem;
 }
 
