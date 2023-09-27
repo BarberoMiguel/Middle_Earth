@@ -54,7 +54,7 @@ header nav{
     border-top: 2px solid white;
 }
 
-h2 a[href*="about"], h2 a[href*="portfolio"] {
+h2 a[href*="about"], a[href*="portfolio"] {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
