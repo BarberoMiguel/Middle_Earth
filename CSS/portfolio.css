@@ -102,7 +102,7 @@ main section {
 }
 
 main img {
-    width: 350px;
+    width: 100%;
 }
 
 main video {
@@ -194,6 +194,9 @@ aside audio {
     aside {
         top: 190px;
     }
+    main img {
+        width: 100%;
+    }
     main {
         top: 190px;
     }
@@ -206,6 +209,9 @@ aside audio {
     }
     aside {
         top: 160px;
+    }
+    main img {
+        width: 350px;
     }
     main {
         top: 160px;
@@ -222,6 +228,9 @@ aside audio {
     }
     aside {
         top: 180px;
+    }
+    main img {
+        width: 350px;
     }
     main {
         top: 180px;
@@ -241,6 +250,9 @@ aside audio {
     }
     aside {
         top: 240px;
+    }
+    main img {
+        width: 350px;
     }
     main {
         top: 240px;

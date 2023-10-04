@@ -42,7 +42,7 @@
         <h2>Contact Form:</h2>
         <p>Please fill out this form if you want to contact the owner of this page for a suggestion or to request more information.</p>
         <section>
-            <form action="./submission.html" method="get">
+            <form action="./submission.html" method="get" id="formulario">
                 <fieldset>
                     <legend>Personal information</legend>
                     <section>
@@ -50,7 +50,7 @@
                         <input type="text" name="name" id="name" placeholder="Write your name" required>
                     </section>
                     <section>
-                        <label for="surname">Last name: </label>
+                        <label for="surname">Last Name: </label>
                         <input type="text" name="surname" id="surname" placeholder="Write your Last name" required>
                     </section>
                     <section>
@@ -82,7 +82,7 @@
                             <label for="other">Other</label>
                         </section> 
                         <label for="box">Describe the motive of your contact in less than 1000 characters:</label>
-                        <textarea name="box" id="box" cols="30" rows="10" required maxlength="1000">Write your motive</textarea>
+                        <textarea name="box" id="box" cols="30" rows="10" required maxlength="1000" placeholder="Write your motive"></textarea>
                 </fieldset>
                 <section id="submit">
                     <input type="reset" value="Reset">
@@ -95,6 +95,7 @@
     <footer>
         <div class="top"><a href="#"> Back to top</a></div>
     </footer>
+    <script src="./contacto.js"></script>
 </body>
 
 </html>

@@ -54,7 +54,7 @@ header nav{
     border-top: 2px solid white;
 }
 
-h2 a[href*="Battles"] {
+h2 a[href*="Battles"], a[href*="Morannon"] {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
